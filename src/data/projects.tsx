@@ -12,6 +12,6 @@ export const projects: Project[] = [
     title: "E-commerce App",
     description: "Built with React and TypeScript.",
     technologies: ["HTML", "CSS", "TypeScript"],
-    link: "https://github.com/youruser/repo"
+    link: "https://sites.google.com/u.northwestern.edu/rytaid/home?authuser=2"
   },
 ];
