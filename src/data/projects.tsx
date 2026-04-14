@@ -9,9 +9,9 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 1,
-    title: "E-commerce App",
-    description: "Built with React and TypeScript.",
-    technologies: ["HTML", "CSS", "TypeScript"],
+    title: "RytAid: Electronic Health System for Elderly Care",
+    description: "Collaborated with a team to build a medicinal storage and reminder system for an elderly client. \n Independently designed and implemented a system which opens the box with an electrical motor and sends text message reminders to take medications.\n",
+    technologies: ["Arduino", "HTTP", "Analog Circuit Design"],
     link: "https://sites.google.com/u.northwestern.edu/rytaid/home?authuser=2"
   },
 ];
