@@ -7,7 +7,7 @@ interface HeroProps {
   tagline: string;
 }
 
-const Hero: React.FC<HeroProps> = ({ name, role, tagline }) => {
+const Hero: React.FC<HeroProps> = ({name, role, tagline}) => {
   return (
     <section className="hero">
       <div className="hero-content">

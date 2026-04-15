@@ -1,10 +1,10 @@
 .hero {
-  height: 50vh; /* Takes up 80% of the screen height */
+  height: 80vh; /* Takes up 80% of the screen height */
   display: flex;
   align-items: center;
   justify-content: flex-start;
   padding: 0 10%;
-  background-color: radial-gradient(circle, rgb(37, 133, 8), rgb(11, 119, 139), rgb(158, 144, 255));;
+  background-color: rgb(111, 151, 102);
 }
 
 .hero-name {
@@ -16,7 +16,7 @@
 
 .hero-role {
   font-size: clamp(1rem, 2vw, 1.5rem);
-  color: #bdcbd7;
+  color: #a7adb1;
   margin-top: 0;
 }
 
