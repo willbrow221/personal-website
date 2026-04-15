@@ -17,7 +17,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, technolog
       <div className="tech-stack">
         {technologies.map((tech) => (
           <span key={tech} className="tech-badge">
-            {tech}
+            {tech + " "}
           </span>
         ))}
       </div>
