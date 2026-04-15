@@ -1,5 +1,5 @@
 .hero {
-  height: 80vh;
+  height: 50vh;
   display: flex;
   flex-direction: column; /* Stack elements vertically */
   align-items: center;    /* Center horizontally */
@@ -11,14 +11,14 @@
 
 .hero-name {
   font-size: clamp(2.5rem, 6vw, 4.5rem);
-  margin-bottom: 15px;     /* Space below the name */
+  margin-bottom: 2vh;     /* Space below the name */
   color: #040505;
 }
 
 .hero-role {
   font-size: clamp(1rem, 2vw, 1.5rem);
   color: #a7adb1;
-  margin-bottom: 15px;     /* Space below the role */
+  margin-bottom: 2vh;     /* Space below the role */
 }
 
 .hero-tagline {
@@ -26,11 +26,7 @@
   line-height: 1.4;
   font-size: 1rem;
   color: #bac1c9;
-  margin-bottom: 25px;     /* Space below the tagline */
-}
-
-.hero-cta {
-  margin-top: 10px;
+  margin-bottom: 2vh;     /* Space below the tagline */
 }
 
 .btn-primary, .btn-secondary {

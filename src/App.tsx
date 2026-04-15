@@ -21,6 +21,7 @@ function App() {
             description={project.description}
             technologies={project.technologies}
             link={project.link}
+            demoLink={project.demoLink}
           />
         ))}
       </div>
