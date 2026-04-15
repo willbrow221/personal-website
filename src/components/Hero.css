@@ -1,20 +1,21 @@
 .hero {
-  height: 80vh; /* Takes up 80% of the screen height */
+  height: 50vh; /* Takes up 80% of the screen height */
   display: flex;
   align-items: center;
   justify-content: flex-start;
   padding: 0 10%;
-  background-color: #457b23;
+  background-color: radial-gradient(circle, rgba(37, 133, 8, 0.765), rgb(11, 119, 139), rgb(18, 10, 73));;
 }
 
 .hero-name {
   font-size: clamp(2.5rem, 6vw, 4.5rem); /* Responsive font size */
   margin: 0;
+  padding: 5px 0;
   color: #040505;
 }
 
 .hero-role {
-  font-size: clamp(1.25rem, 4vw, 3.5rem);
+  font-size: clamp(1rem, 2vw, 1.5rem);
   color: #bdcbd7;
   margin-top: 0;
 }
@@ -24,12 +25,10 @@
   line-height: 1.4;
   font-size: 1rem;
   color: #bac1c9;
-  align-items: center;
-
 }
 
 .hero-cta {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .btn-primary, .btn-secondary {
