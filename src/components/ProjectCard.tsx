@@ -6,9 +6,10 @@ interface ProjectCardProps {
   description: string;
   technologies: string[];
   link: string;
+  demoLink?: string;
 }
 
-const ProjectCard: React.FC<ProjectCardProps> = ({title, description, technologies, link}) => {
+const ProjectCard: React.FC<ProjectCardProps> = ({title, description, technologies, link, demoLink}) => {
   return (  
     <div className="project-card">
       <h3>{title}</h3>
@@ -21,9 +22,20 @@ const ProjectCard: React.FC<ProjectCardProps> = ({title, description, technologi
         </React.Fragment>
       ))}
       </div>
+      <div className="project-links">
       <a href={link} target="_blank" rel="noopener noreferrer" className="project-link">
         View Project
       </a>
+      {demoLink && (
+          <a 
+            href={demoLink} 
+            download="pong_final.s" // Forces download and sets filename
+            className="btn-file"
+          >
+            Download Source Code
+          </a>
+        )}
+      </div>
     </div>
   );
 };
