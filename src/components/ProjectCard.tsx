@@ -32,7 +32,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({title, description, technologi
             download="pong_final.s" // Forces download and sets filename
             className="btn-file"
           >
-            Download Source Code
+            &nbsp Download Source Code
           </a>
         )}
       </div>
