@@ -12,6 +12,7 @@ const Hero: React.FC<HeroProps> = ({name, role, tagline}) => {
     <section className="hero">
       <div className="hero-content">
         <h1 className="hero-name">{name}</h1>
+        <br></br>
         <h2 className="hero-role">{role}</h2>
         <p className="hero-tagline">{tagline}</p>
         <div className="hero-cta">
