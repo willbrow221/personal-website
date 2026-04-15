@@ -11,7 +11,6 @@ const Hero: React.FC<HeroProps> = ({ name, role, tagline }) => {
   return (
     <section className="hero">
       <div className="hero-content">
-        <p className="hero-greeting">Hi, my name is</p>
         <h1 className="hero-name">{name}</h1>
         <h2 className="hero-role">{role}</h2>
         <p className="hero-tagline">{tagline}</p>

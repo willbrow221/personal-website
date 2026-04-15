@@ -4,13 +4,7 @@
   align-items: center;
   justify-content: flex-start;
   padding: 0 10%;
-  background-color: #f8f9fa;
-}
-
-.hero-greeting {
-  color: #007bff;
-  font-family: 'Courier New', monospace;
-  margin-bottom: 10px;
+  background-color: #286303;
 }
 
 .hero-name {
@@ -20,28 +14,30 @@
 }
 
 .hero-role {
-  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-size: clamp(1.25rem, 4vw, 3.5rem);
   color: #6c757d;
   margin-top: 0;
 }
 
 .hero-tagline {
   max-width: 500px;
-  line-height: 1.6;
-  font-size: 1.1rem;
+  line-height: 1.4;
+  font-size: 1rem;
   color: #495057;
+  align-items: center;
+
 }
 
 .hero-cta {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .btn-primary, .btn-secondary {
-  padding: 12px 24px;
-  border-radius: 5px;
+  padding: 10px 20px;
+  border-radius: 4px;
   text-decoration: none;
   font-weight: bold;
-  margin-right: 15px;
+  margin-right: 12px;
 }
 
 .btn-primary {

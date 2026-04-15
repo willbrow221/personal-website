@@ -1,5 +1,5 @@
 import Hero from './components/Hero';
-import { projects } from './data/projects';
+import {projects} from './data/projects';
 import ProjectCard from './components/ProjectCard';
 import './App.css';
 
