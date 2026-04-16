@@ -28,7 +28,7 @@ export const projects: Project[] = [
     description: "Created a simple Pong clone Using ARM assmbly language. \n Implemented game mechanics, including ball movement, paddle control, and collision detection, to create an engaging gaming experience.",
     technologies: ["ARM Assembly", "Game Development", "Low-Level Programming"],
     link: "https://cpulator.01xz.net/?sys=arm-de1soc&d_audio=48000",
-    demoLink: "public/pong_final.s"
+    demoLink: "/personal-website/pong_final.s"
   },
   
 ];
