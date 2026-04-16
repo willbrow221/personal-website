@@ -18,7 +18,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({title, description, technologi
       {technologies.map((tech, index) => (
         <React.Fragment key={tech}>
         <span className="tech-badge">{tech}</span>
-        {index !== technologies.length - 1 && " "}
+        {index !== technologies.length - 1 && " | "}
         </React.Fragment>
       ))}
       </div>
