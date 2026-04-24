@@ -16,16 +16,16 @@
 }
 
 .hero-role {
-  font-size: clamp(1rem, 2vw, 1.5rem);
-  color: #a7adb1;
+  font-size: clamp(1rem, 500px, 1.5rem);
+  color: #9fa7b1;
   margin-bottom: 2vh;     /* Space below the role */
 }
 
-.hero-tagline {
+.hero-tagline { 
   max-width: 500px;
   line-height: 1.4;
   font-size: 1rem;
-  color: #bac1c9;
+  color: #c2cddb;
   margin-bottom: 2vh;     /* Space below the tagline */
 }
 

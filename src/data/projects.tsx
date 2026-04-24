@@ -25,7 +25,7 @@ export const projects: Project[] = [
   {
     id: 3,
     title: "Video Game: Pong Clone",
-    description: "Created a simple Pong clone Using ARM assmbly language. \n Implemented game mechanics, including ball movement, paddle control, and collision detection, to create an engaging gaming experience.",
+    description: "Created a simple Pong clone using ARM assembly language.\n Implemented game mechanics, including ball movement, paddle control, and collision detection, to create an engaging gaming experience.",
     technologies: ["ARM Assembly", "Game Development", "Low-Level Programming"],
     link: "https://cpulator.01xz.net/?sys=arm-de1soc&d_audio=48000",
     demoLink: "/personal-website/pong_final.s"
