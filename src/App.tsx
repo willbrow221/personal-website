@@ -9,7 +9,7 @@ function App() {
       <Hero 
         name="Will Brower" 
         role="Computer Software and Hardware Engineer" 
-        tagline="Passionate about building innovative solutions and exploring the intersection of software and hardware."
+        tagline="Building innovative solutions for technological challenges and exploring the intersection of computer software and hardware."
       />
       <div className="portfolio-container">
       <h1>My Projects</h1>
