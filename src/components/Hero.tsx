@@ -16,7 +16,7 @@ const Hero: React.FC<HeroProps> = ({name, role, tagline}) => {
         <p className="hero-tagline">{tagline}</p>
         <div className="hero-cta">
           <a href="#projects" className="btn-primary">View My Work</a>
-          <a href={`resume.pdf`} className="btn-secondary" target="_blank" rel="noopener noreferrer">
+          <a href={`https://docs.google.com/document/d/1XLtccAvcIGLF0fbiHGYC_BgLh4AUQ3RAHd4qNXQaH5A/edit?usp=sharing`} className="btn-secondary" target="_blank" rel="noopener noreferrer">
             Resume
           </a>
         </div>
